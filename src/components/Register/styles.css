@@ -1,0 +1,108 @@
+.register{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.register-box{
+    display: flex;
+}
+.reg-left{
+  width: 50%;
+  box-sizing: content-box; 
+  height: 100vh;
+}
+.rl-w{
+    margin-top: 55px;
+    margin-left: 175px;
+ }
+ .reg-h1{
+    color: #000;
+    font-size: 2.2rem;
+    margin-left: 30px;
+ }
+.reg-p-up{
+    color: #000;
+    margin-top: 40px;
+ }
+.reg-form{
+    margin-top: 15px;
+  top: 40%;
+  left: 50%;
+  max-width: 400px;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+.input-text{
+    display: block;
+    border: none;
+    height: 2rem;
+    width: 75%;
+    margin-bottom: 1.5rem;
+    padding: 0.2rem 0.3rem;
+    font-size: small;
+    color: #000;
+    border-radius: 8px 8px;
+    border:1.5px solid #000000;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    background-color:#FFFFFF;
+}
+.input-text:hover {
+    outline: 0.5px solid #000000;
+    -webkit-box-shadow: 2px 2px 9px -2px #000000;
+            box-shadow: 2px 2px 9px -2px #000000;
+}
+.reg-button{
+    padding: 7px 18px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #fff;
+    height: 2re;
+    width: 60%;
+    border-radius: 12px;
+    font-size: 1.0rem;
+    font-weight: 400;
+    cursor: pointer; 
+    margin-left: 20px;
+     }
+.reg-p{
+    margin-top: 15px;
+    display: flex;
+    column-gap: 10px;
+}
+.reg-agreed{
+    color: grey;
+    font-size: 0.9rem;
+}
+.reg-terms{
+    color: #000;
+    font-size: 0.9rem;
+}
+
+.reg-right{
+    background-image: url("../../images/Photo.png");
+    width: 50%;
+    color: #FFFFFF;
+    height: 100vh;
+}
+.rr-side{
+    margin-top: 55px;
+    margin-left: 105px;
+}
+.rr-h1{
+   color: #FFFFFF;
+   font-size: 2.3rem;
+}
+.rr-p{
+    color: #FFFFFF;
+    margin-top: 15px;
+    font-size: 1.0rem;
+}
+.rr-p1{
+    color: #FFFFFF;
+    margin-top: 305px;
+}
+.reg-icon{
+    display: flex;
+    column-gap: 23px;
+    margin-top: 15px;
+}
